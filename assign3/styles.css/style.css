@@ -1,0 +1,70 @@
+body {background-color: #f19ce3;}
+h1 {
+    text-align: center;
+    color:rgb(239, 48, 223);
+    text-shadow: 2px 2px 1px rgb(34, 34, 34);
+    font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 5px;
+}
+
+div img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+   
+    box-sizing: border-box;
+}
+section {display: flex; width: 70%; border: solid thin; justify-content: space-between; margin-left: auto; margin-right: auto; box-shadow: 5px 2px 3px; padding: 25px;background-color:rgb(246, 192, 246);}
+#image1 {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 3px rgb(29, 29, 29);
+    padding: 50px;
+    border:solid 10px rgb(232, 103, 200);
+    border:solid thin;
+    background-color:rgb(246, 192, 246);
+    width: 400px;
+
+}
+#image1:hover {
+    border-radius:10px ;
+    border: solid 10px rgb(186, 10, 165);
+    transition: all 0.5s ease-in-out;
+}
+ img {
+    width: 100%;
+    height: 200px;
+
+}
+section div:hover{
+    background-color: white;
+    border-radius: 50%;
+    padding:20px;
+    border:solid thin rgb(232, 103, 200);;
+    box-shadow: 4px 2px 5px rgb(29, 29, 29);
+    transition: box-shadow 1s ease-in-out;
+    box-sizing: border-box;
+}
+p {
+    border:solid thin;
+    padding:30px;
+    box-shadow:  1px 2px 2px rgb(77, 77, 77);
+    border-radius: 50px;
+    background-color: rgb(238, 237, 237);
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    letter-spacing: 1.2px;
+    line-height: 2em;
+    font-family: "Exo 2", sans-serif;
+    font-size: 18px;
+ 
+    font-weight: 400;
+    font-style: normal;
+
+}
